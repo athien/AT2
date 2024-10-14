@@ -23,7 +23,7 @@ class TestLists(unittest.TestCase):
         test_list = []
         result = append_element(test_list, "Margot Robbie")
         self.assertEqual(result, ["Margot Robbie"])
-        self.assertEqual(test_list, ["Margot Robbit"])
+        self.assertEqual(test_list, ["Margot Robbie"])
     
     def test_remove_element(self):
         """Tests the functionality of the remove_element() operation."""
